@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animation</title>
+	<link href="css/portfolio style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<header>
+	<div class="container-head">
+      <nav>
+        <ul>
+          <div class="HoneyMoon"><li><a href="index.html"><span class="first-Letter">H</span>ONEY<span class="first-Letter">M</span>OON</a></li></div>
+		<div class="Header-Buttons"><li><a href="about.html">ABOUT</a></li></div>
+		<div class="Header-Buttons"><li><a href="portfolio.html">PORTFOLIO</a></li></div>
+        </ul>
+      </nav>
+    </div>
+	</header>
+	
+	<section>
+		<div class="title-box">
+			<h2 class="animate-bottom">ANIMATION</h2>
+        </div>
+		
+				<script>
+			function showModal(event) {
+				const modalDiv = document.createElement('div');
+				const imageObject = document.createElement('img');
+				imageObject.src = event.target.src;
+
+				modalDiv.setAttribute('class', 'modal');
+				modalDiv.append(imageObject);
+				modalDiv.onclick = (event) => {
+					modalDiv.remove();
+				}
+
+				document.querySelector('body').append(modalDiv);
+			}
+
+			// document.onload = () => {
+			// 	document.querySelectorAll('.row img').forEach(e => e.addEventListener("click", showModal));
+			// }
+		</script>
+		
+		<div class="row">
+			<div class="column">
+				<iframe  src="https://www.youtube.com/embed/TijVuV-1Wek" allowfullscreen></iframe>
+				<div class="title-work">
+						<h3>2D rig animation, 2023</h3>
+			  	</div>
+				<iframe src="https://www.youtube.com/embed/z32IJvXaBX4" allowfullscreen></iframe>
+					<div class="title-work">
+						<h3>social media post animation, 2022</h3>
+			  		</div>
+			</div>
+			<div class="column">
+				<iframe src="https://www.youtube.com/embed/zJ4YoE97QXw" allowfullscreen></iframe>
+					<div class="title-work">
+						<h3>UNIC mediazone animation, 2024</h3>
+					</div>
+		    	<iframe src="https://www.youtube.com/embed/8b2th_naDBk" allowfullscreen></iframe>
+					<div class="title-work">
+						<h3>vtuber stream overlay, 2022</h3>
+					</div>
+				<iframe src="https://www.youtube.com/embed/bCEN5qt94Z0" allowfullscreen></iframe>
+					<div class="title-work">
+						<h3>Cyprus food cultural heritage, 2023</h3>
+					</div>
+			</div>
+			<div class="column">
+		    	<iframe src="https://drive.google.com/file/d/1lTvWojvToL0pTdzFmIgHvMXsJduLDTk1/preview" allowfullscreen></iframe>
+				<div class="title-work">
+					<h3>series title animation, 2023</h3>
+				</div>
+				<iframe src="https://www.youtube.com/embed/oL_p4ulIQic" allowfullscreen></iframe>
+				<div class="title-work">
+					<h3>2D rig animation, 2023</h3>
+				</div>
+			</div>
+			<div class="column">
+		    	<iframe src="https://www.youtube.com/embed/Pbm8kzqDc6k" title="2d rig animation" allowfullscreen></iframe>
+				<div class="title-work">
+					<h3>2D rig animation, 2024</h3>
+				</div>
+				<iframe src="https://drive.google.com/file/d/16zVMM52CS2ccP_oPcxkJNPo4fHEiQtUy/preview" allowfullscreen></iframe>
+				<div class="title-work">
+					<h3>mixed media animation, 2024</h3>
+				</div>
+			</div>
+		</div>
+			
+		
+	  <footer>
+		<span class="about-footer"><div class="container-footer">
+			<div class="footer-sign">@2023 DARIA KOZHUKHAR</div>
+		  </div>
+			<a href="#" class="to-top">TO TOP</a></span>
+		</footer>
+	</section>
+	
+	<script type="text/javascript" src="java/app.js"></script>
+</body>
+	
+	
+</html>
+
