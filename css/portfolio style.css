@@ -161,6 +161,7 @@ footer {
 	background: #e9e9e9;
 	margin-bottom: 2em;
 	margin-top: -3em;
+	width: 100%;
 }
 
 .container-footer {
@@ -172,6 +173,7 @@ footer {
 
 .footer-sign {
 	margin-top: 8em;
+	float: left;
 	/* padding-left: 50px; */
 	font-family: "Futura Book", "Futura SemiBold", "Futura Thin", "Futura Medium", "Futura Light", sans-serif;
 	font-size: 9px;
