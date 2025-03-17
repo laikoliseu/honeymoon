@@ -116,9 +116,9 @@ h2 {
 
 section {
 	padding: 0 113px;
-	/* width: 100%; */
-	/* place-items: center;
-	align-content: center; */
+	width: 100%;
+	place-items: center;
+	align-content: center;
 	min-height: 100vh;
 }
 
