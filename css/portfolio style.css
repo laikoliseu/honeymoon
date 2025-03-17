@@ -124,7 +124,8 @@ section {
 
 .text-container {
 	float: left;
-	padding-top: 50px;
+	/* padding-top: 50px; */
+	padding-top: 1em;
 }
 
 .serif {
@@ -143,7 +144,7 @@ section {
 .button-container {
 	float: left;
 	/* position: relative; */
-	padding-top: 40px;
+	padding-top: 1em;
 }
 
 .button-text {
