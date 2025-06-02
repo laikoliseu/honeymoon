@@ -25,6 +25,11 @@ head {
 	font-family: "Futura Std Heavy", sans-serif;
 }
 
+.separate {
+	font-family: "Futura Std Heavy", sans-serif;
+	color: #eca826;
+}
+
 .HoneyMoon {
 	display: flex;
 	padding-left: 3em;
