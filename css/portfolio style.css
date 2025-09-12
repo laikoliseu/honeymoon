@@ -400,16 +400,15 @@ p {
 }
 
 .video-container {
-    width: 100vw;
-    height: 100vh;
+    text-align: center;
     overflow: hidden;
     position: relative;
 }
 
-iframe {
+.video-container iframe {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    max-width: 100%;
+    height: auto;
     pointer-events: none;
  }
 
@@ -661,6 +660,7 @@ iframe {
 	height: 100%;
 	width: auto;
 }
+
 
 
 
