@@ -400,14 +400,13 @@ p {
 }
 
 .video-container {
-	max-width: 80%;
+	max-width: 100%;
     text-align: center;
 	margin: 0 auto;
 }
 
 .video-container iframe {
     max-width: 100%;
-    height: auto;
     pointer-events: none;
  }
 
@@ -659,6 +658,7 @@ p {
 	height: 100%;
 	width: auto;
 }
+
 
 
 
