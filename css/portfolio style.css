@@ -401,11 +401,11 @@ p {
 
 .video-container {
     text-align: center;
-	margin: 0 auto;
 }
 
 .video-container iframe {
     max-width: 100%;
+	height: auto;
  }
 
 .box-portfolio:first-child {
@@ -656,6 +656,7 @@ p {
 	height: 100%;
 	width: auto;
 }
+
 
 
 
