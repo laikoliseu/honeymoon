@@ -401,13 +401,10 @@ p {
 
 .video-container {
     text-align: center;
-    overflow: hidden;
-    position: relative;
 	margin: 0 auto;
 }
 
 .video-container iframe {
-    position: absolute;
     max-width: 100%;
     height: auto;
     pointer-events: none;
@@ -661,6 +658,7 @@ p {
 	height: 100%;
 	width: auto;
 }
+
 
 
 
