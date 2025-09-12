@@ -399,6 +399,13 @@ p {
   	animation-timing-function: ease 50;
 }
 
+.video-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
 .box-portfolio:first-child {
 	margin-left: 0;
 }
@@ -647,3 +654,4 @@ p {
 	height: 100%;
 	width: auto;
 }
+
